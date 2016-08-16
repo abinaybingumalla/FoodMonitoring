@@ -1,0 +1,42 @@
+<ion-view view-title="Food Monitoring">
+    <ion-content>
+        <div class="row">
+
+            <div class="col balanced ">Age (Months)</div>
+            <div class="col balanced"> Weight (Kg)</div>
+            <div class="col balanced">EER (KJ/day)</div>
+        </div>
+        <div></div>
+        <div></div>
+
+        <div class="row">
+            <div class="col col-offset-10"></div>
+            <div class="col positive">Boys</div>
+            <div class="col energized">Girls</div>
+            <div class="col positive">Boys</div>
+            <div class="col energized">Girls</div>
+        </div>
+
+        <div class="row" ng-repeat="item in estimates">
+
+            <div class="col royal col-offset-10">{{item.age}}</div>
+            <div class="col positive">{{item.weight[0]}}</div>
+            <div class="col energized">{{item.weight[1]}}</div>
+            <div class="col positive">{{item.EER[0]}}</div>
+            <div class="col energized">{{item.EER[1]}}</div>
+        </div>
+        <div></div>
+        <div></div>
+        <div class="row">
+            Source : NHMRC
+        </div>
+        <!--<table class="table">
+            <tr ng-repeat="item in estimates">
+                <td title="'Name'">
+                    {{item.age}}</td>
+                <td title="'Age'">
+                    {{item.weight[0]}}</td>
+            </tr>
+        </table>-->
+    </ion-content>
+</ion-view>
