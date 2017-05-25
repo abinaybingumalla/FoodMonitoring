@@ -1,7 +1,9 @@
 # FoodMonitoring (MED4DEV Hackathon)
 Food Monitoring Application for Infants 
 
-Naandi Foundation is seeking a technological solution to monitor food and milk intake (quantity and frequency) among children 6 to 8 months old, as well as recommendations for adequate complementary feeding practices for mothers in order to prevent child malnutrition.
+
+Malnutrition among children is a prevalent trend in India, with close to 40% children up to 5 years old being underweight. A critical window of opportunity for fixing the problem is during the 2 month period between 6 and 8 months old, when an infant begins eating semi-solid and solid foods other than breastmilk (referred to as complementary food). Malnutrition can be prevented if the infant is given the right quantity and quality of food in the correct frequency.
+
 
 
 
